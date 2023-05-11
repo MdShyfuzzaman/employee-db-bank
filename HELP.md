@@ -1,16 +1,20 @@
-## Technology
-JDK-8
-Spring Boot 
-Spring Batch
-Spring JPA
-MySQL
-Maven 3.x
+### Technology
+ - JDK-8
+ - Spring Boot 
+ - Spring Batch
+ - Spring JPA
+ - MySQL
+ - Maven 3.x
 
-## build
-mvn clean
+### MySQL setup
+  - create db into mysql employee_info_bank
+  - update db credential from application.properties
 
-## run with maven command
-mvn spring-boot:run
+### build
+  mvn clean
 
-## CURL
-curl -X POST http://localhost:8080/batch/start
+### run with maven command
+   mvn spring-boot:run
+
+### CURL
+  curl -X POST http://localhost:8080/batch/start
